@@ -6,45 +6,7 @@ let defaultStyle = {
   color: '#fff'
 };
 
-let fakeServerData = {
-  user: {
-    name: 'Garret',
-    playlists: [
-      {
-        name: 'My Favorites',
-        songs: [
-          {name: 'Beat It', duration: 1345},
-          {name: 'Pachuca Sunrise', duration: 5634},
-          {name: 'CC (You set the fire in me)', duration: 3452}
-        ]
-      },
-      {
-        name: 'Discovered Weekly',
-        songs: [
-          {name: 'Before Dawn', duration: 3452},
-          {name: 'Apparent Lushness', duration: 2889},
-          {name: 'By the wall', duration: 2847}
-        ]
-      },
-      {
-        name: 'Synthwave',
-        songs: [
-          {name: 'City of Dreams', duration: 2599},
-          {name: 'Night Fantasy', duration: 4018},
-          {name: 'All I Can Give', duration: 2018}
-        ]
-      },
-      {
-        name: 'Moderat-test',
-        songs: [
-          {name: 'Planet', duration: 2108},
-          {name: 'History Lesson', duration: 1083},
-          {name: 'Running', duration: 3018}
-        ]
-      }
-    ]
-  }
-};
+
 
 class PlaylistCounter extends Component {
   render () {
