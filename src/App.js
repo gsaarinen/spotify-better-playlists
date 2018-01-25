@@ -161,9 +161,9 @@ class App extends Component {
             <Playlist playlist={playlist} />
           )}
         </div> : <button onClick={() =>{
-          window.location = window.location.includes('localhost')
+          window.location = window.location.href.includes('localhost')
           ? 'http://localhost:8888/login'
-          : 'https://gs-spotify-better-playlists.herokuapp.com/login' }
+          : 'https://gs-spotify-playlists-backend.herokuapp.com/login' }
         }
         style={{padding: '20px', 'font-size': '50px', 'margin-top': '20px'}}>Sign in with Spotify</button>
       }
