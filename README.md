@@ -1,8 +1,10 @@
 # Spotify-Better-Playlists
 
-This app is a simple reimagining of the UI for playlists in Spotify.It is essentially a prototype but gave me an excuse to explore more with React.
+This app is a simple reimagining of the UI for playlists in Spotify. Rather than have a huge list on your side bar, it borrows a similar design esthetic that is used in presenting Artists or albums. It is essentially a prototype but gave me an excuse to explore more with React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+-----
 
 In order to run locally you will need the following:
 - A Spotify Developer Account
